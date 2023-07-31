@@ -1,1 +1,1 @@
-# landingnegocio.github.io
+# landingnegocio
