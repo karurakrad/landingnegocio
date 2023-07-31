@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Habitat | Estudio de Interiores</title>
+    <title>Habitat | Interior Design Studio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,7 +11,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Habitat</a>
+            <img class="navbar-brand" src="./assets/logo/white_logo_transparent_background.png" alt="habitat">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -19,121 +19,162 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#our-services">Our Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galería</a>
+                        <a class="nav-link" href="#warranty">Warranty</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <!-- Jumbotron -->
-    <header class="jumbotron">
+    <header class="jumbotron text-center">
         <div class="container">
-            <h1>Estudio de Interiores</h1>
-            <p>Servicios hechos a la medida y con gran calidad</p>
-            <a href="#contact" class="find-habitat-btn">Find your habitat</a>
+            <h1>We redesign your space</h1>
+            <a href="#contact-us" class="btn btn-primary btn-lg">Find your habitat</a>
         </div>
-    <!-- Our Services -->
     </header>
-    <section id="services" class="section">
-        <h2>Our Services</h2>
-        <div class="service-container">
-            <div class="service">
-                <img src="path_to_image.jpg" alt="Service 1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#" class="get-in-touch-btn">Get in touch</a>
-            </div>
-            <div class="service">
-                <img src="path_to_image.jpg" alt="Service 2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#" class="get-in-touch-btn">Get in touch</a>
-            </div>
-            <div class="service">
-                <img src="path_to_image.jpg" alt="Service 3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#" class="get-in-touch-btn">Get in touch</a>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio -->
-    <section id="portfolio" class="section">
-        <h2>Portfolio</h2>
-        <div class="portfolio-container">
-            <div class="portfolio-item">
-                <img src="path_to_image.jpg" alt="Portfolio 1">
-            </div>
-            <div class="portfolio-item">
-                <img src="path_to_image.jpg" alt="Portfolio 2">
-            </div>
-            <div class="portfolio-item">
-                <img src="path_to_image.jpg" alt="Portfolio 3">
-            </div>
-            <div class="portfolio-item">
-                <img src="path_to_image.jpg" alt="Portfolio 4">
-            </div>
-        </div>
-        <a href="#" class="more-info-btn">More Info</a>
-    </section>
-    <!-- Warranty -->
-    <section id="warranty" class="section">
-        <h2>Warranty</h2>
-        <div class="warranty-container">
-            <div class="warranty-item">
-                <img src="path_to_image.jpg" alt="Warranty 1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="warranty-item">
-                <img src="path_to_image.jpg" alt="Warranty 2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="warranty-item">
-                <img src="path_to_image.jpg" alt="Warranty 3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </div>
-        <a href="#contact" class="lets-meet-btn">Let's meet</a>
-    </section>
-    <!-- Formulario de Contacto -->
-    <section class="contact-form">
-        <div class="container">
-            <h2>Contacto</h2>
-            <form>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Nombre" required>
+
+    <!-- Our Services -->
+    <section id="our-services" class="section">
+        <div class="container text-center">
+            <h2>Our Services</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="service-item">
+                        <img src="ruta/a/imagen1.jpg" alt="Basic Design">
+                        <br>
+                        <h3>Basic</h3>
+                        <p>Book today and experience first-hand the superior quality of our service.</p>
+                        <a href="#contact-us" class="btn btn-primary">Get in touch</a>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="tel" class="form-control" placeholder="Teléfono" required>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="service-item">
+                        <img src="ruta/a/imagen2.jpg" alt="Standard Design">
+                        <br>
+                        <h3>Standard</h3>
+                        <p>We help you create a tailored solution that is specific to your needs and desires.</p>
+                        <a href="#contact-us" class="btn btn-primary">Get in touch</a>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Correo Electrónico" required>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <img src="ruta/a/imagen3.jpg" alt="Service 3">
+                        <br>
+                        <h3>Premium</h3>
+                        <p>Our team works around the clock to make sure we deliver on time, every time.</p>
+                        <a href="#contact-us" class="btn btn-primary">Get in touch</a>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <textarea class="form-control" placeholder="Mensaje" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="logo">Habitat</div>
-            <div class="contact-info">
-                <p>Dirección: [Dirección del estudio]</p>
-                <p>Teléfono: [Número de teléfono]</p>
-                <p>Email: [Email de contacto]</p>
+    <!-- Portfolio -->
+    <section id="portfolio" class="section bg-light">
+        <div class="container text-center">
+            <br>
+            <h2>Portfolio</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="ruta/a/portfolio1.jpg" alt="Portfolio 1" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="ruta/a/portfolio2.jpg" alt="Portfolio 2" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="ruta/a/portfolio3.jpg" alt="Portfolio 3" class="img-fluid">
+                </div>
+                <div class="col-md-3">
+                    <img src="ruta/a/portfolio4.jpg" alt="Portfolio 4" class="img-fluid">
+                </div>
             </div>
+        </div>
+        <div class="container text-center">
+            <a href="#contact-us" class="btn btn-primary btn-lg">More Info</a>
+        </div>
+        <br>
+    </section>
+<br>
+    <!-- Warranty -->
+    <section id="warranty" class="section">
+        <div class="container text-center">
+            <h2>Warranty</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="warranty-item">
+                        <img src="./assets/icons/time-twenty-four-svgrepo-com.svg" alt="Support">
+                        <h4>Support 24/7</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="warranty-item">
+                        <img src="./assets/icons/diamond-svgrepo-com.svg" alt="Quality">
+                        <h4>Best quality</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="warranty-item">
+                        <img src="./assets/icons/happy-face-2-svgrepo-com.svg" alt="Tailored">
+                        <h4>Tailored service</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <a href="#contact-us" class="btn btn-primary btn-lg">Let's meet</a>
+        </div>
+    </section>
+<br>
+<br>
+    <!-- Contact Us -->
+    <section id="contact-us" class="section">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Phone" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+<br>
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+        <div class="container text-center">
+            <img src="./assets/logo/white_logo_transparent_background.png" alt="Habitat Logo" class="footer-logo">
+            <div class="contact-info">
+                <p>+012 345 6789</p>
+                <p>kar.ruiz.mx@gmail.com</p>
+                <p>1234 Main St, City, Country</p>
+            </div>
+            <br>
             <div class="social-icons">
-                <!-- Aquí irían los iconos de redes sociales -->
+                <span><img width="30px" src="./assets/icons/facebook.svg" alt="facebook"></span>
+                <span><img width="35px" src="./assets/icons/instagram.svg" alt="instagram"></span>
+                <span><img width="35px" src="./assets/icons/behance.svg" alt="behance"></span>
             </div>
         </div>
     </footer>
