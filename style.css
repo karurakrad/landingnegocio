@@ -11,7 +11,7 @@
 
 /* Jumbotron */
 .jumbotron {
-    background-image: url("ruta/a/jumbotron-bg.jpg");
+    background-image: url("./assets/images/main.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
